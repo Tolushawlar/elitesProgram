@@ -1,0 +1,10 @@
+1. Get list of the unsorted numbers store as unsortedNum
+2. Get the length of the list of unsorted numbers can store as NumLen
+3. Repeat this steps until no swaps are made again:
+    Set a a boolean variable swapped value as false
+    Loop from list index of 0 to NumLen - 1:
+        compare unsortedNum[i] with unsortedNum[i+1]
+        if unsortedNum[i] > unsortedNum[i+1]:
+            swap(move position) unsortedNum[i] with unsortedNum[i+1]
+            set swapped to true 
+4. Output the result of unsorted
